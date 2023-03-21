@@ -1,25 +1,24 @@
-
 /*-------------------------------------------------------------*/
 /*IMPORTS*/
 /*-------------------------------------------------------------*/
 
-import React from 'react'
-
+import React from "react";
+import Layout from "../Layout";
+import FormEditProduct from "../../Components/ProductComponents/FormEditProduct";
 /*-------------------------------------------------------------*/
 /*DECLARATION AND INITIALIZATION*/
-/*-------------------------------------------------------------*/
+/*------------------------------------------------------------*/
 
-const Welcome = () => {
+const EditProduct = () => {
   return (
-    <div>
-        <h1 className='title' >Dashboard</h1>
-        <h2 className='subtitle'> Welcome Back ... </h2>
-    </div>
-  )
-}
+    <Layout>
+       <FormEditProduct/>
+    </Layout>
+  );
+};
 
 /*-------------------------------------------------------------*/
 /*EXPORTS*/
 /*-------------------------------------------------------------*/
 
-export default Welcome
+export default EditProduct;

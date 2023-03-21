@@ -1,25 +1,24 @@
-
 /*-------------------------------------------------------------*/
 /*IMPORTS*/
 /*-------------------------------------------------------------*/
 
-import React from 'react'
-
+import React from "react";
+import Layout from "../Layout";
+import FormAddProduct from "../../Components/ProductComponents/FormAddProduct";
 /*-------------------------------------------------------------*/
 /*DECLARATION AND INITIALIZATION*/
-/*-------------------------------------------------------------*/
+/*------------------------------------------------------------*/
 
-const Welcome = () => {
+const AddProduct = () => {
   return (
-    <div>
-        <h1 className='title' >Dashboard</h1>
-        <h2 className='subtitle'> Welcome Back ... </h2>
-    </div>
-  )
-}
+    <Layout>
+       <FormAddProduct/>
+    </Layout>
+  );
+};
 
 /*-------------------------------------------------------------*/
 /*EXPORTS*/
 /*-------------------------------------------------------------*/
 
-export default Welcome
+export default AddProduct;

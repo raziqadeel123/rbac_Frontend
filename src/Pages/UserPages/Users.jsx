@@ -1,25 +1,23 @@
-
 /*-------------------------------------------------------------*/
 /*IMPORTS*/
 /*-------------------------------------------------------------*/
 
 import React from 'react'
-
+import Layout from '../Layout'
+import UserList from '../../Components/UserComponents/UserList'
 /*-------------------------------------------------------------*/
 /*DECLARATION AND INITIALIZATION*/
 /*-------------------------------------------------------------*/
 
-const Welcome = () => {
-  return (
-    <div>
-        <h1 className='title' >Dashboard</h1>
-        <h2 className='subtitle'> Welcome Back ... </h2>
-    </div>
-  )
-}
-
+const Users = () => {
+    return (
+      <Layout>
+        <UserList/>
+      </Layout>
+    )
+  }
 /*-------------------------------------------------------------*/
 /*EXPORTS*/
 /*-------------------------------------------------------------*/
 
-export default Welcome
+export default Users

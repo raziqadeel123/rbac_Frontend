@@ -1,25 +1,24 @@
-
 /*-------------------------------------------------------------*/
 /*IMPORTS*/
 /*-------------------------------------------------------------*/
 
-import React from 'react'
-
+import React from "react";
+import Layout from "../Layout";
+import FormEditUser from "../../Components/UserComponents/FormEditUser";
 /*-------------------------------------------------------------*/
 /*DECLARATION AND INITIALIZATION*/
 /*-------------------------------------------------------------*/
 
-const Welcome = () => {
+const EditUser = () => {
   return (
-    <div>
-        <h1 className='title' >Dashboard</h1>
-        <h2 className='subtitle'> Welcome Back ... </h2>
-    </div>
-  )
-}
+    <Layout>
+        <FormEditUser/>
+    </Layout>
+  );
+};
 
 /*-------------------------------------------------------------*/
 /*EXPORTS*/
 /*-------------------------------------------------------------*/
 
-export default Welcome
+export default EditUser;

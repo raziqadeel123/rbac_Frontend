@@ -29,7 +29,7 @@ const Login = () => {
                     <input
                       tyoe="password"
                       className="input"
-                      placeholder="*****"
+                      placeholder="********"
                     />
                   </div>
                 </div>

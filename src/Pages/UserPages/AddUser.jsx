@@ -2,22 +2,23 @@
 /*IMPORTS*/
 /*-------------------------------------------------------------*/
 
-import React from 'react'
-import Layout from './Layout'
-import UserList from '../Components/UserList'
+import React from "react";
+import Layout from "../Layout";
+import FormAddUser from "../../Components/UserComponents/FormAddUser";
 /*-------------------------------------------------------------*/
 /*DECLARATION AND INITIALIZATION*/
 /*-------------------------------------------------------------*/
 
-const Users = () => {
-    return (
-      <Layout>
-        <UserList/>
-      </Layout>
-    )
-  }
+const AddUser = () => {
+  return (
+    <Layout>
+        <FormAddUser/>
+    </Layout>
+  );
+};
+
 /*-------------------------------------------------------------*/
 /*EXPORTS*/
 /*-------------------------------------------------------------*/
 
-export default Users
+export default AddUser;

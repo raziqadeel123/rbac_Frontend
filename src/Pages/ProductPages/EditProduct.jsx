@@ -3,23 +3,22 @@
 /*-------------------------------------------------------------*/
 
 import React from "react";
-import Layout from "./Layout";
-import ProductList from "../Components/ProductList";
-
+import Layout from "../Layout";
+import FormEditProduct from "../../Components/ProductComponents/FormEditProduct";
 /*-------------------------------------------------------------*/
 /*DECLARATION AND INITIALIZATION*/
-/*-------------------------------------------------------------*/
+/*------------------------------------------------------------*/
 
-const Products = () => {
+const EditProduct = () => {
   return (
-        <Layout>
-            <ProductList/>
-        </Layout>
-  )
+    <Layout>
+       <FormEditProduct/>
+    </Layout>
+  );
 };
 
 /*-------------------------------------------------------------*/
 /*EXPORTS*/
 /*-------------------------------------------------------------*/
 
-export default Products;
+export default EditProduct;
